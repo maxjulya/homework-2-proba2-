@@ -1,0 +1,172 @@
+/* --------------- reset.css --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0; /* обнуляем отступы и убираем бордюры */
+    vertical-align: baseline; /* приводим все к одной базовой линии */
+    background: transparent; /* чтобы не проскакивали левые фоны, установленные по умолчанию */
+    font-size: 100%; /* размер шрифта всем одинаковый */
+}
+
+body  {
+    background: #F9F9F9;
+}
+
+.container_main  {
+    width: 1060px;
+    height: 970px;
+    background-color: #fff;
+    margin: auto;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+.logo_wrap {
+    padding: 50px 0 40px 45px;
+}
+
+.panel {
+    max-width: 966px;
+    max-height: 40px;
+    background-image: url(../img/panel.png);
+    margin-left: 45px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.panel li {
+    display: inline-block;
+
+}
+.panel li>a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 13px;
+    text-shadow: 2px 2px 0 black;
+    display: block;
+    padding: 12px 40px;
+    box-sizing: border-box ;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.panel a:hover {
+    background-image: url(../img/link.png);
+    display: block;
+    border-left: 1px solid #848484;
+    border-right: 1px solid #848484;
+    box-sizing: border-box;
+}
+.left_menu {
+    float: left;
+    border: 1px solid #C9C9C9;
+    width: 240px;
+    margin: 40px 0 0 45px ;
+}
+
+.left_menu ul {
+    list-style: none;
+}
+
+.left_menu li>a {
+    display: block;
+    font-family: "OpenSansRegular", sans-serif;
+    color: #666363;
+    font-size: 13px;
+    padding-left: 23px;
+    text-decoration: none;
+    line-height: 39px;
+}
+
+.left_menu li>a:hover {
+    color: #282828;
+    background-color: #F9F9F9;
+    text-indent: 22px;
+    transition: .25s ease;
+}
+
+
+.left_menu li {
+    display: block;
+    border-bottom: 1px solid #C9C9C9;
+}
+
+.left_menu li:last-child{
+    border-bottom: none;
+}
+
+.content {
+    float: right;
+    width: 676px;
+    height: 398px;
+    border: 1px solid #C9C9C9;
+    margin: 40px 48px 0 0;
+}
+
+.container_cont {
+    height: 628px;
+}
+
+.container_cont p {
+    margin:  36px 24px 0 24px;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 13px;
+    color: #282828;
+    line-height: 21px;
+}
+
+.frame {
+    text-align: center;
+}
+
+.main_img {
+    padding: 45px 0;
+    vertical-align: middle;
+}
+
+.footer {
+    clear: both;
+    margin: 58px 0;
+}
+
+.menu_foot {
+    position: relative;
+    overflow: hidden;
+    max-width: 966px;
+    max-height: 40px;
+    background-image: url(../img/panel_light.png);
+    margin-left: 45px;
+}
+.mnu {
+    list-style: none;
+    float: left;
+}
+
+.menu_foot li {
+    display: inline-block;
+    }
+
+.menu_foot li>a {
+    color: #282828;
+    text-decoration: none;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 13px;
+    display: block;
+    padding: 12px 40px;
+}
+
+.menu_foot a:hover {
+    display: block;
+    text-decoration: underline;
+    box-sizing: border-box;
+}
+.menu_foot span {
+    float: right;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 13px;
+    display: block;
+    padding: 12px 26px;
+
+}
